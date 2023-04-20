@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"> 
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width"/>
+    <title>Carrick's Corner</title>
+<style>
+    .Main-Header {
+        font-size: 65px;
+        background-color: aqua;
+        padding: 10px;
+        margin: 5px;
+        border: 5px;
+        border-color: brown;
+        border-radius: 5px;
+        margin: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+    #Page-Menu {
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+        background-color: rgb(0, 170, 170);
+        padding: 10px;
+        margin: 5px;
+        border: 5px;
+        border-color: brown;
+        border-radius: 5px;
+        margin: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        list-style-type: none;
+    }
+    #Contact-Menu {
+        display: flex;
+        justify-content: space-around;
+        font-size: 50px;
+        background-color: rgb(0, 170, 170);
+        padding: 10px;
+        margin: 5px;
+        border: 5px;
+        border-color: brown;
+        border-radius: 5px;
+        margin: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        list-style-type: none;
+    }
+    #Page-Menu a {
+        text-decoration: none;
+    }
+    #Contact-Menu a {
+        text-decoration: none;
+    }
+    .Header {
+        font-size: 50px;
+        background-color: aqua;
+        padding: 10px;
+        margin: 5px;
+        border: 5px;
+        border-color: brown;
+        border-radius: 5px;
+        margin: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+    #Text {
+        font-size: 15px;
+        margin: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .Background {
+        background-color: aqua;
+        padding: 10px;
+        margin: 5px;
+        border: 5px;
+        border-color: brown;
+        border-radius: 5px;
+    }
+    .Background::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .Contact-Details{
+        font-size: 20px;
+        background-color: aqua;
+        padding: 10px;
+        margin: 5px;
+        border: 5px;
+        border-color: brown;
+        border-radius: 5px;
+        margin: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #Return-To-The-Top{
+        font-size: 40px;
+        background-color: aqua;
+        padding: 10px;
+        margin: 5px;
+        border: 5px;
+        border-color: brown;
+        border-radius: 5px;
+        margin: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .Past-Work-Images{
+        border-radius: 25px;
+        border: 5px solid rgb(0, 0, 0);
+        width: 35%;
+        float: right;
+    }
+</style>
+  </head>
+
+  <body>
+    <div>
+        <H1 class="Main-Header" >Carrick's Corner</H1> <!--This is my website title. it is wrapped within a div & class so I could style it with a class easier. I wanted it to be short, snappy & alliterative so that it remains in the mid of the reader/ user-->
+      <ul id="Page-Menu"> <!--These are the headers that direct you to different areas of the page. They are within a h ref so that when you click on an item, it takes you to the desired area of the website.-->
+        <li><a href="#Past-Work-header">Home</a></li>
+        <li><a href="#Past-Work-Header">Past Work</a></li>
+        <li><a href="#About-Me-Header">About Me</a></li>
+        <li><a href="#What-I-Offer-Header">What I Offer</a></li>
+      </ul>
+    </div>
+<h2 class="Header"> Past Work </h2> <!--This is a header - I wanted it to be slightly smaller than the website title as its 'less important' & the exact same size 7 style as the other headers. So, I created a header class with css so that it was consistent with the other headers & so that all features were the correct corresponding sizes & I did this with css elements such as border, border radius & justify content.. -->
+<div class="Background">
+    <img src="Images/Boy Laughing.jpg" alt="Boy Laughing" class="Past-Work-Images"> <!--This is an image; I had to encase it within a div & a p so that it was able to appear in the same box as & next to the desired text with the float css element. I Also made sure it was within a class so that it could be the same size as the other images & have a border so wasnt as simple & plain & multiple css elements were used to achieve this. -->
+<p id="Text">
+    I have had an interest within the area of photography since the age of around 12, but after school work & other effecting factors, I was finally able to begin paid photography work from the age of 18. My first job ended up being based in the primary school that my mom worked 
+    for & I was given 5 reuirements for my work, which proved to not only myself, but also the customer that I can still have good-quality work even if I am given restrictions. Those restrictions were to have images resemble a word - one of such being perseverance - whilst still 
+    having a natural & unforced feel to the image itself. Not only were the pictures I took used for the website, some were also framed & put up around the school; which without blowing my own trumpet, means that the images that I took were of a high-quality & also therefore 
+    satisfied the customer.
+</p>
+</div>
+<div class="Background">
+    <img src="Images\Coaches Waving At Camera.jpg" alt="Coches Waving" class="Past-Work-Images"> <!--This is an image; I had to encase it within a div & a p so that it was able to appear in the same box as & next to the desired text with the float css element. I Also made sure it was within a class so that it could be the same size as the other images & have a border so wasnt as simple & plain & multiple css elements were used to achieve this. -->
+<p id="Text"> <!--This is the text section that relates to the header above. This is also included within both the div & the p so that it as able to appear next to the imge with ease by using the float element within the id that i selected for it. It had to be smaller than all headers & the same size & font as all other text boxes & i achieved this by having the same value in each font size, font family & font colour for each & that was done by using css within the id identifier.-->
+    After finding out that it wasn't simply just an interest, but rather something I could do full-time, I decided to book another job. rather than working in a school, this time it was for a football-coaching business & so I had to get images of a plethora of people/ activities/ 
+    items. Similar to last time, I was given some requirements - this time a bit more simple, but the challenging part was that the job was over two days. Normally, & for established photographers this would not be a problem, but to be completely trasparent with you it did
+    challenge me because I was just starting out at this point & so spending a long period of time constantly doing the same thing seemed boring, but I stood-up to the challenge, did not get complacent withing the process of achieving a high-quality image & completed the job to 
+    the best of my ability.
+</p>
+</div>
+<h3 class="Header"> About Me </h3><!--This is a header - I wanted it to be slightly smaller than the website title as its 'less important' & the exact same size 7 style as the other headers. So, I created a header class with css so that it was consistent with the other headers & so that all features were the correct corresponding sizes & I did this with css elements such as border, border radius & justify content.. -->
+<div class="Background"> 
+<img src="Images\Carrick As A Kid.jpg" alt="Author As A Child" class="Past-Work-Images"><!--This is an image; I had to encase it within a div & a p so that it was able to appear in the same box as & next to the desired text with the float css element. I Also made sure it was within a class so that it could be the same size as the other images & have a border so wasnt as simple & plain & multiple css elements were used to achieve this. -->
+<p id="Text"> <!--This is the text section that relates to the header above. This is also included within both the div & the p so that it as able to appear next to the imge with ease by using the float element within the id that i selected for it. It had to be smaller than all headers & the same size & font as all other text boxes & i achieved this by having the same value in each font size, font family & font colour for each & that was done by using css within the id identifier.-->
+    Firstly, my name is Carrick Hasketh-Boston & at the time of creating this, I am 19 years old. On the 20th of January 2004 I was happily born into a beautiful family with my parents & older brother, then soon after myself a younger sister. Life didn's start off fantastically
+    however, as when I first arrived home my clever 1-year-old-brother at the time decided to clonk me around the head with an empty milk bottle - which is probably a valid reason as to why I have ended up the way that I am. After going through primary school & passing my SAT's 
+    (yes I am clever enough to pass those) I began to attend Staffordshire-based secondary school 'The Hart School' in 2015.  This is where my passion for media/ photography began, as throughout secondary school, I had the chance of visiting places like Barcelona, Cadiz, Paris, 
+    Brugge, California & many other places. Originally, it began as just an easy & accessible way of storing memories, but I feel like the older I grew, the more that I appreciated littler things - such as architecture & culture - & so wanted those memories to give whoever sees 
+    them the same feeling I felt when I did. Anyway, after high-school I attended a local sixth-form & this is where i began my journey on photography & media in an academic sense. However, because of the effects of covid, having to isolate & personal issues, I did fall out of 
+    love with & lose the spur to put effort into my school work - as did so many others at such a hard time, as we are only human. I still managed to achieve a grade good enough to get accepted into my university Of Choice, that being De Montfort University, & so through many 
+    trials & tribulations, I still managed to do as good as my ability would let me. & now i am here. Although I havent reached my final goal of financial stability & a full, quality photography portfolio, I feel as if I am definitely on a clearer pathway to not only finding
+    my passion for photography & spur to complete my work, but also on a path towards achieving my goals as well.
+</p>
+</div>
+<h3 class="Header"> What I Offer </h3><!--This is a header - I wanted it to be slightly smaller than the website title as its 'less important' & the exact same size 7 style as the other headers. So, I created a header class with css so that it was consistent with the other headers & so that all features were the correct corresponding sizes & I did this with css elements such as border, border radius & justify content.. -->
+<div class="Background">
+    <img src="Images/Picture Of Phone.jpg" alt="Photo Of A Phone" class="Past-Work-Images"><!--This is an image; I had to encase it within a div & a p so that it was able to appear in the same box as & next to the desired text with the float css element. I Also made sure it was within a class so that it could be the same size as the other images & have a border so wasnt as simple & plain & multiple css elements were used to achieve this. -->
+<p id="Text"> <!--This is the text section that relates to the header above. This is also included within both the div & the p so that it as able to appear next to the imge with ease by using the float element within the id that i selected for it. It had to be smaller than all headers & the same size & font as all other text boxes & i achieved this by having the same value in each font size, font family & font colour for each & that was done by using css within the id identifier.-->
+    Should you wish to select me for your photographic needs, please consider that I offer the following; A full day of work (constituting to the hours required) - set up with tripod, 2 spare lenses, charging opourtunity, green screen, microphone & rain guard for the lense.
+    That is just standard for the equiptment I will need to make sure you are fully satisfied with the final outcome. However, I know that evrybody's needs are different to eachothers: & so below I have included the three easiest ways to contact me regarding what you would want 
+    to be done, what with & pay so please feel free to message me & we can discuss all of the above in further detail.
+</p>
+</div>
+<div>
+    <ul id="Contact-Menu">
+      <li><a href="contact.html"> Contacts Page </a></li>
+    </ul>
+</div>
+  </body>
+</html>
